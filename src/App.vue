@@ -2,18 +2,21 @@
   <div id="app">
     <MyHeader />
     <MyJumbotron />
+    <FeaturedProduct />
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyJumbotron from './components/MyJumbotron.vue'
+import FeaturedProduct from './components/FeaturedProduct.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
-    MyJumbotron
+    MyJumbotron,
+    FeaturedProduct
   }
 }
 </script>

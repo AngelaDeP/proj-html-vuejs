@@ -1,0 +1,36 @@
+.container-ft-products {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.ft-products-sec h2 {
+    font-size: 35px;
+    padding: 15px;
+}
+
+.ft-products-sec span {
+    color: #64686c;
+    font-size: 13px;
+}
+
+.nav-ft-products ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-ft-products li {
+    padding: 15px 30px;
+    margin: 20px 0px;
+    border: 1px solid #d3d3d3;
+    background-color: #f7f7f7;
+}
+
+.nav-ft-products a {
+    text-decoration: none;
+    color: #2a2f33;
+    font-weight: bold;
+    font-size: 15px;
+}
