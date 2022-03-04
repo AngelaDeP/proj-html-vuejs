@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 650px;
+    background-image: url('../img/home1_slide_three_bg_2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-text {
+    color: #fff;
+    text-align: center;
+}
+
+.jumbotron-text h1 {
+    font-size: 80px;
+    padding: 20px;
+}
+
+.jumbotron-text h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.button-sec button {
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+}
