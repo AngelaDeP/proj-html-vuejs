@@ -3,6 +3,7 @@
     <MyHeader />
     <MyJumbotron />
     <FeaturedProduct />
+    <CollectionSlides />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import MyHeader from './components/MyHeader.vue'
 import MyJumbotron from './components/MyJumbotron.vue'
 import FeaturedProduct from './components/FeaturedProduct.vue'
+import CollectionSlides from './components/CollectionSlides.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyJumbotron,
-    FeaturedProduct
+    FeaturedProduct,
+    CollectionSlides
   }
 }
 </script>

@@ -1,0 +1,61 @@
+.collection-container {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+
+.collection-slide1 {
+    background-image: url('../img/winter_collection_bg.jpg');
+    background-size: cover;
+    width: calc(100% / 3);
+    height: 600px;
+    position: relative;
+}
+
+.collection-slide2 {
+    background-image: url('../img/spring_collection_bg.jpg');
+    background-size: cover;
+    width: calc(100% / 3);
+    height: 600px;
+    position: relative;
+}
+
+.collection-slide3 {
+    background-image: url('../img/autumn_collection_bg.jpg');
+    background-size: cover;
+    width: calc(100% / 3);
+    height: 600px;
+    position: relative;
+}
+
+.collection-slide-text {
+    position: absolute;
+    bottom: 30px;
+    left: 155px;
+}
+
+.style-tag {
+    color: #fff;
+    text-align: center; 
+}
+
+.style-tag h1 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.style-tag h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.button-sec button {
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+}
