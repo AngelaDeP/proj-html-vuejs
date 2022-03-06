@@ -34,3 +34,39 @@
     font-weight: bold;
     font-size: 15px;
 }
+
+/* Product Card */
+
+.ft-products-content {
+    display: flex;
+    justify-content: center;
+} 
+
+.ft-product-card img {
+    margin: 20px;
+    width: 250px;
+}
+
+.ft-product-card-text {
+    text-align: left;
+}
+
+.ft-product-card-text h1 {
+    font-size: 17px;
+}
+
+.ft-product-card-text .tags {
+    font-size: 12px;
+    color: #64686c;
+    margin: 5px 0px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.ft-product-card-text span {
+    color: #307ebe;
+}
