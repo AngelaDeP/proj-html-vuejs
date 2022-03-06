@@ -4,6 +4,7 @@
     <MyJumbotron />
     <FeaturedProduct />
     <CollectionSlides />
+    <BestSeller />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyJumbotron from './components/MyJumbotron.vue'
 import FeaturedProduct from './components/FeaturedProduct.vue'
 import CollectionSlides from './components/CollectionSlides.vue'
+import BestSeller from './components/BestSeller.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     MyHeader,
     MyJumbotron,
     FeaturedProduct,
-    CollectionSlides
+    CollectionSlides,
+    BestSeller
   }
 }
 </script>

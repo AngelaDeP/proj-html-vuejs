@@ -56,10 +56,10 @@
             </div>
             <div class="ft-product-card">
                 <div class="ft-product-card-img">
-                    <img src="../assets/img/blue_leather_jacket.jpg" alt="">
+                    <img src="../assets/img/modern_black_leather_suit.jpg" alt="">
                 </div>
                 <div class="ft-product-card-text">
-                    <h1>Blue Leather Jacket</h1>
+                    <h1>Modern Black Leather Suit</h1>
                     <div class="tags">Men, Jackets</div>
                     <br>
                     <span>$96</span>
