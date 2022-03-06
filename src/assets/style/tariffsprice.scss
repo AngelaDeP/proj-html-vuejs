@@ -1,0 +1,31 @@
+.tariffs-container {
+    background-image: url('../img/bkgd_confetti-compressor.jpg');
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.discount-promo {
+    background-image: url('../img/promo_box_1_bg.jpg');
+    margin-right: 20px;
+}
+
+.free-shipping-promo {
+    background-image: url('../img/promo_box_2_bg.jpg');
+    margin-left: 20px;
+}
+
+.tariffs-content-text {
+    padding: 80px 50px;
+    text-align: left;
+    color: #fff;
+    width: 70%;
+}
+
+.tariffs-content-text h3 {
+    font-size: 15px;
+    margin: 20px 0px;
+    font-weight: lighter;
+}
