@@ -1,0 +1,31 @@
+.blog-content {
+    display: flex;
+}
+
+.blog-column {
+    text-align: left;
+    padding: 25px;
+}
+
+.blog-column .title {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.blog-column .date {
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+}
+
+.blog-column .comments {
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+}
+
+.blog-column .snippet {
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(78, 78, 78);
+    margin: 5px 0px;
+}

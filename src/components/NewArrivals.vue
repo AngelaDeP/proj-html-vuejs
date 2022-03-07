@@ -1,5 +1,5 @@
 <template>
-<div class="container-new-arrivals">
+    <div class="container-new-arrivals">
         <div class="new-arrivals-sec">
             <div class="title-ft-products">
                 <h2>New Arrivals</h2>
