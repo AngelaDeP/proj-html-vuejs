@@ -9,6 +9,8 @@
     <NewArrivals />
     <TestimoniesSec />
     <FromOurBlog />
+    <hr>
+    <ColumnProducts />
   </div>
 </template>
 
@@ -22,6 +24,7 @@ import TariffsPrice from './components/TariffsPrice.vue'
 import NewArrivals from './components/NewArrivals.vue'
 import TestimoniesSec from './components/TestimoniesSec.vue'
 import FromOurBlog from './components/FromOurBlog.vue'
+import ColumnProducts from './components/ColumnProducts.vue'
 
 export default {
   name: 'App',
@@ -34,7 +37,8 @@ export default {
     TariffsPrice,
     NewArrivals,
     TestimoniesSec,
-    FromOurBlog
+    FromOurBlog,
+    ColumnProducts
   }
 }
 </script>
