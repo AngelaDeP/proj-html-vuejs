@@ -13,6 +13,7 @@
     <ColumnProducts />
     <BrandLogos />
     <SubscribeOffer />
+    <MyFooter v-bind:infos="infos" />
   </div>
 </template>
 
@@ -29,23 +30,37 @@ import FromOurBlog from './components/FromOurBlog.vue'
 import ColumnProducts from './components/ColumnProducts.vue'
 import BrandLogos from './components/BrandLogos.vue'
 import SubscribeOffer from './components/SubscribeOffer.vue'
+import MyFooter from './components/MyFooter.vue'
 
 export default {
   name: 'App',
-  components: {
-    MyHeader,
-    MyJumbotron,
-    FeaturedProduct,
-    CollectionSlides,
-    BestSeller,
-    TariffsPrice,
-    NewArrivals,
-    TestimoniesSec,
-    FromOurBlog,
-    ColumnProducts,
-    BrandLogos,
-    SubscribeOffer
-  }
+  data() {
+    return {
+      infos: 
+       {
+          street: '12345 North Main Street',
+          city: 'New York, NY 555555', 
+          phone: '1.800.555.6789'},
+          email: 'info@company.com',
+          web: 'Theme-fusion@com'
+
+        }
+    },
+    components: {
+      MyHeader,
+      MyJumbotron,
+      FeaturedProduct,
+      CollectionSlides,
+      BestSeller,
+      TariffsPrice,
+      NewArrivals,
+      TestimoniesSec,
+      FromOurBlog,
+      ColumnProducts,
+      BrandLogos,
+      SubscribeOffer,
+      MyFooter
+    }
 }
 </script>
 
