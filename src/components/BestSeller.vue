@@ -12,6 +12,13 @@
             <img src="../assets/img/black_leather_jacket.jpg" alt="">
             <img src="../assets/img/black_elegant_leather_jacket.jpg" alt="">
             <img src="../assets/img/hipster_black_top.jpg" alt="">
+
+            <div class="prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
         </div>
     </div>
 </template>

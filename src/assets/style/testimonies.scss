@@ -1,0 +1,30 @@
+.testimonies-container {
+    background-image: url('../img/testimonials_home_1_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.testimonies-content {
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    color: #fff;
+}
+
+.testimonies-content p {
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 25px;
+    padding: 15px;
+    width: 45%;
+    margin: auto;
+}
+
+.testimonial-name {
+    padding: 15px;
+}
+
+.testimonial-name span {
+    font-weight: bolder;
+}

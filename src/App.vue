@@ -7,6 +7,7 @@
     <BestSeller />
     <TariffsPrice />
     <NewArrivals />
+    <TestimoniesSec />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import CollectionSlides from './components/CollectionSlides.vue'
 import BestSeller from './components/BestSeller.vue'
 import TariffsPrice from './components/TariffsPrice.vue'
 import NewArrivals from './components/NewArrivals.vue'
+import TestimoniesSec from './components/TestimoniesSec.vue'
 
 export default {
   name: 'App',
@@ -28,7 +30,8 @@ export default {
     CollectionSlides,
     BestSeller,
     TariffsPrice,
-    NewArrivals
+    NewArrivals,
+    TestimoniesSec
   }
 }
 </script>

@@ -12,6 +12,13 @@
             <img src="../assets/img/black_leather_suit.jpg" alt="">
             <img src="../assets/img/spring_printed_dress.jpg" alt="">
             <img src="../assets/img/modern_love_tee.jpg" alt="">
+
+            <div class="prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
         </div>
     </div>
 </template>

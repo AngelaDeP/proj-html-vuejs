@@ -53,40 +53,9 @@
             <div class="right-header-sec">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                                <i class="fa-solid fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Shopping
-                                <i class="fa-solid fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Products
-                                <i class="fa-solid fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Categories
-                                <i class="fa-solid fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                News
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Elements
-                                <i class="fa-solid fa-angle-down"></i>
-                            </a>
+                        <li v-for="(link, index) in links" :key="index">
+                            <a :href="link.url">{{link.text}}</a>
+                            <i class="fa-solid fa-angle-down"></i>
                         </li>
                     </ul>
                 </nav>
@@ -103,7 +72,37 @@
 
 <script>
 export default {
-    name: 'MyHeader'
+    name: 'MyHeader',
+    data() {
+    return {
+      links: [
+          {
+              text: "Home",
+              url: "#",
+          },
+          {
+              text: "Shop",
+              url: "#",
+          },
+          {
+              text: "Products",
+              url: "#",
+          },
+          {
+              text: "Categories",
+              url: "#",
+          },
+          {
+              text: "News",
+              url: "#",
+          },
+          {
+              text: "Elements",
+              url: "#",
+          },
+      ],
+    }
+  }
 }
 </script>
 
