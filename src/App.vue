@@ -12,6 +12,7 @@
     <hr>
     <ColumnProducts />
     <BrandLogos />
+    <SubscribeOffer />
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import TestimoniesSec from './components/TestimoniesSec.vue'
 import FromOurBlog from './components/FromOurBlog.vue'
 import ColumnProducts from './components/ColumnProducts.vue'
 import BrandLogos from './components/BrandLogos.vue'
+import SubscribeOffer from './components/SubscribeOffer.vue'
 
 export default {
   name: 'App',
@@ -41,7 +43,8 @@ export default {
     TestimoniesSec,
     FromOurBlog,
     ColumnProducts,
-    BrandLogos
+    BrandLogos,
+    SubscribeOffer
   }
 }
 </script>
