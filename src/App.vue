@@ -11,6 +11,7 @@
     <FromOurBlog />
     <hr>
     <ColumnProducts />
+    <BrandLogos />
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import NewArrivals from './components/NewArrivals.vue'
 import TestimoniesSec from './components/TestimoniesSec.vue'
 import FromOurBlog from './components/FromOurBlog.vue'
 import ColumnProducts from './components/ColumnProducts.vue'
+import BrandLogos from './components/BrandLogos.vue'
 
 export default {
   name: 'App',
@@ -38,7 +40,8 @@ export default {
     NewArrivals,
     TestimoniesSec,
     FromOurBlog,
-    ColumnProducts
+    ColumnProducts,
+    BrandLogos
   }
 }
 </script>
